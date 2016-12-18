@@ -1,3 +1,4 @@
+# This is a piece of code I've written in Python. It calculates the user's required calories to either lose weight, gain muscle or maintain current weight.
 age = int(raw_input("How old are you? "))
 height = int(raw_input("How tall are you in cm? "))
 weight = int(raw_input("How much do you weigh in lbs? "))
