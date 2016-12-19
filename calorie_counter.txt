@@ -1,12 +1,10 @@
 # This is a piece of code I've written in Python. It calculates the user's required calories to either lose weight, gain muscle or maintain current weight.
+
 age = int(raw_input("How old are you? "))
 height = int(raw_input("How tall are you in cm? "))
 weight = int(raw_input("How much do you weigh in lbs? "))
 nm = int(raw_input("How many meals do you eat in a day?"))
 age = int(raw_input("How old are you? "))
-height = int(raw_input("How tall are you in cm? "))
-weight = int(raw_input("How much do you weigh in lbs? "))
-nm = int(raw_input("How many meals do you eat in a day?"))
 
 print "So, you're %r yrs old, %r cm tall and %r lbs heavy." % (age, height, weight)
 
@@ -41,14 +39,6 @@ if plan == "Lose":
   
 elif plan == "Gain":
   Musclegain()
-
-elif plan == "Maintain":
-  Maintain()
-
-else:
-  print "okay then... "
-
-print "Thank you and good bye!"
 
 elif plan == "Maintain":
   Maintain()
