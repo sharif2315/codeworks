@@ -4,7 +4,7 @@ age = int(raw_input("How old are you? "))
 height = int(raw_input("How tall are you in cm? "))
 weight = int(raw_input("How much do you weigh in lbs? "))
 nm = int(raw_input("How many meals do you eat in a day?"))
-age = int(raw_input("How old are you? "))
+
 
 print "So, you're %r yrs old, %r cm tall and %r lbs heavy." % (age, height, weight)
 
