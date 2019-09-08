@@ -1,4 +1,5 @@
-# This is a piece of code I've written in Python. It calculates the user's required calories to either lose weight, gain muscle or maintain current weight.
+# This is a piece of code I've written in Python.
+# It calculates the user's required calories to either lose weight, gain muscle or maintain current weight.
 
 age = int(raw_input("How old are you? "))
 height = int(raw_input("How tall are you in cm? "))
@@ -16,27 +17,27 @@ def Fatloss():
   a = BMR - 500
   m = a/nm
   print "The total number of calories required for you to lose weight is %r lbs." % (a)
-  print "This means that each meal you have must have a calorie total of  %r " %(m) 
+  print "This means that each meal you have must have a calorie total of  %r " %(m)
 
 def Musclegain():
   a = BMR + 500
   m = a/nm
   print "The total number of calories required for you to gain muscle is %r lbs." % (a)
-  print "This means that each meal you have must have a calorie total of  %r " %(m) 
+  print "This means that each meal you have must have a calorie total of  %r " %(m)
 
 def maintain():
-  a = BMR 
+  a = BMR
   m = a/nm
   print "The total number of calories required for you to lose weight is %r lbs." % (a)
-  print "This means that each meal you have must have a calorie total of  %r " %(m) 
-  
+  print "This means that each meal you have must have a calorie total of  %r " %(m)
+
 print "Would you like to lose weight, gain muscle or maintain your current weight? Please state either Lose, Gain or Maintain."
 
 plan = raw_input("> ")
 
 if plan == "Lose":
   Fatloss()
-  
+
 elif plan == "Gain":
   Musclegain()
 
